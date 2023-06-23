@@ -6,11 +6,11 @@
 - اولا package ال furniture:
   - ال package بتاعت ال Table:
     - ال Table Interface اللي بيحدد ال methods اللي في اي Table class هيعمل Implementation ليها
-    - ال OldTable class ده child لل Table Interface
-    - ال NewTable class ده child لل Table Interface
+    - ال OldTable class و ده بيعمل implement لل Table Interface
+    - ال NewTable class و ده بيعمل implement لل Table Interface
   - ال package بتاعت ال Chair:
     - ال Chair Interface اللي بيحدد ال methods اللي في اي Chair class هيعمل Implementation ليها
-    - ال OldChair class ده child لل Chair Interface
-    - ال NewChair class ده child لل Chair Interface
+    - ال OldChair class و ده بيعمل implement لل Chair Interface
+    - ال NewChair class و ده بيعمل implement لل Chair Interface
 - ثانيا package ال factory:
   - ال FurnitureFactory و ده Factory of Factories و هما Table Factory و Chair Factory
